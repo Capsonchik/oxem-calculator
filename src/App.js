@@ -1,10 +1,13 @@
 import './App.css';
+import {Header} from './components/header/header';
+import {MainForm} from './components/form/main-form';
 
 function App() {
   return (
     <div className="App">
       <div className="container">
-        Рассчитайте стоимость автомобиля в лизинг
+        <Header/>
+        <MainForm/>
       </div>
     </div>
   );

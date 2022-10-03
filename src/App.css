@@ -5,6 +5,13 @@
   font-weight: bold;
 }
 
+@font-face {
+  font-family: "Gilroy";
+  src: local("Gilroy"),
+  url("./fonts/gilroy/Gilroy-Regular.ttf") format("truetype");
+  font-weight: regular;
+}
+
 body {
   font-family: "Nekst";
 }
@@ -16,8 +23,7 @@ body {
 }
 
 .container {
-  width: 1440px;
-  text-align: center;
+  max-width: 1440px;
   margin: 0 auto;
   padding: 213px 47px;
 }
