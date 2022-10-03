@@ -1,3 +1,14 @@
+@font-face {
+  font-family: "Nekst";
+  src: local("Nekst"),
+  url("./fonts/nekst/Nekst-Black.ttf") format("truetype");
+  font-weight: bold;
+}
+
+body {
+  font-family: "Nekst";
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +18,8 @@
 .container {
   width: 1440px;
   text-align: center;
+  margin: 0 auto;
+  padding: 213px 47px;
 }
 
 
